@@ -133,8 +133,8 @@ main = do
   let imageWidth = 1080
       aspectRatio = 16.0 / 9.0
       imageHeight = floor (fromIntegral imageWidth / aspectRatio)
-      samplesPerPixel = 50
-      depthLimitation = 20
+      samplesPerPixel = 20
+      depthLimitation = 10
 
       viewportHeight = 2.0
       viewportWidth = aspectRatio * viewportHeight
