@@ -1,5 +1,5 @@
 # HaskRay
-A minimal ray tracer in pure Haskell (<200 LOC) following [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), rendering PPM images with `Diffuse` and `Metal` materials—implemented using only system libraries; see also my C version [CRay](https://github.com/TwinIsland/CRay).
+A minimal multi-threading ray tracer in pure Haskell (~200 LOC) following [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), rendering PPM images with `Diffuse` and `Metal` materials—implemented using only system libraries; see also my C version [CRay](https://github.com/TwinIsland/CRay).
 
 ![demo](./docs/output.png)
 
